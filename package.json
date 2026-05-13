@@ -1,0 +1,10 @@
+{
+    "name":  "lambda-notificaciones",
+    "version":  "1.0.0",
+    "description":  "Microservicio de Notificaciones SES asíncronas",
+    "main":  "index.js",
+    "dependencies":  {
+                         "@aws-sdk/client-ses":  "^3.0.0",
+                         "@sentry/aws-serverless":  "^8.0.0"
+                     }
+}
